@@ -1,7 +1,7 @@
 #include <iostream>;
 using namespace std;
 
-int main() {
+int calc() {
 
   int num1, num2;
   char op;
