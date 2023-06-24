@@ -7,25 +7,24 @@ int main() {
   char op;
 
   cout << "Enter first number:";
-  cin >>num1;
+  cin >> num1;
   cout << "Enter operator:";
-  cin >>op;
+  cin >> op;
   cout << "Enter second number:";
-  cin >>num2;
+  cin >> num2;
 
   int result;
-  if(op=='+'){
-    result = num1 + num2 ;
-  }else if(op=='-'){
-    result = num1 - num2 ;
-  }else if(op=='%'){
-    result = num1%num2 ;
-  }else if(op=='/'){
-    result = num1 / num2 ;
-  }else {
+  if (op == '+') {
+    result = num1 + num2;
+  } else if (op == '-') {
+    result = num1 - num2;
+  } else if (op == '%') {
+    result = num1 % num2;
+  } else if (op == '/') {
+    result = num1 / num2;
+  } else {
     cout << "invalid operators";
   }
 
-   cout<< result;
-  
+  cout << result;
 }
