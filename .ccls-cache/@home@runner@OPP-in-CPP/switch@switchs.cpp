@@ -28,7 +28,7 @@ int calculate(int num1, int num2, char op) {
   return result;
 }
 
-int main() {
+int switches() {
   int num1, num2;
   char op;
 
